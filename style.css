@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* TAB BAR */
+.tabs {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  background: #020617;
+}
+
+/* BUTTONS */
+.tab-btn {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid #00e5ff;
+  color: #00e5ff;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #00e5ff;
+  color: black;
+}
+
+/* CONTENT */
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
